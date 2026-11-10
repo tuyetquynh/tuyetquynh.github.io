@@ -1,0 +1,1487 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Portfolio Tuyết Quỳnh</title>
+<meta name="description" content="Portfolio Digital Marketing và Marketing Automation của Bùi Thị Tuyết Quỳnh.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#4A3AA8;
+  --navy-deep:#312478;
+  --navy-ink:#1A1150;
+  --blue:#6A56D6;
+  --blue-soft:#A08FEE;
+  --sky:#F0EDFE;
+  --sky-2:#F8F6FF;
+
+  --orange:#E8690B;
+  --orange-soft:#FF8A33;
+  --amber:#FFB020;
+  --marker:#FFE26A;
+  --marker-2:#FFD08A;
+
+  --ink:#14203A;
+  --muted:#5C6B87;
+  --line:#E2DDF5;
+  --white:#fff;
+
+  --aside:286px;
+  --maxw:1240px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{
+  margin:0;
+  font-family:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--ink);background:var(--white);
+  font-size:16.5px;line-height:1.75;-webkit-font-smoothing:antialiased;
+}
+
+/* ===== reading progress ===== */
+#progress{
+  position:fixed;top:0;left:0;height:3px;width:0%;z-index:99;
+  background:linear-gradient(90deg,var(--amber),var(--orange));
+  transition:width .08s linear;
+}
+
+/* ===== hero ===== */
+.hero{
+  background:
+    radial-gradient(1200px 760px at 6% -20%, rgba(150,120,255,.46), transparent 60%),
+    radial-gradient(820px 560px at 99% 2%, rgba(255,176,32,.17), transparent 60%),
+    radial-gradient(1000px 820px at 74% 118%, rgba(106,86,214,.62), transparent 64%),
+    linear-gradient(168deg,#3A2C8E 0%,var(--navy) 44%,#1D1460 100%);
+  color:#fff;position:relative;overflow:hidden;
+  min-height:min(86vh,820px);display:flex;align-items:flex-end;
+  padding:78px 0 0;
+}
+/* lớp nền: lưới chấm */
+.hero::before{
+  content:"";position:absolute;inset:0;z-index:0;
+  background-image:radial-gradient(rgba(255,255,255,.09) 1px, transparent 1px);
+  background-size:26px 26px;
+  -webkit-mask-image:linear-gradient(180deg,#000 0%,#000 42%,transparent 88%);
+  mask-image:linear-gradient(180deg,#000 0%,#000 42%,transparent 88%);
+}
+.hero .sky{position:absolute;inset:0;z-index:0;pointer-events:none}
+.hero .sky i{position:absolute;left:0;top:0;width:1px;height:1px;border-radius:50%}
+.hero .sky i.s1{box-shadow:926px 573px 0 rgba(255,255,255,.55),1754px 799px 0 rgba(255,255,255,.55),953px 462px 0 rgba(255,255,255,.55),1040px 601px 0 rgba(255,255,255,.55),388px 189px 0 rgba(255,255,255,.55),1646px 524px 0 rgba(255,255,255,.55),974px 644px 0 rgba(255,255,255,.55),1257px 812px 0 rgba(255,255,255,.55),381px 96px 0 rgba(255,255,255,.55),914px 310px 0 rgba(255,255,255,.55),290px 92px 0 rgba(255,255,255,.55),1103px 829px 0 rgba(255,255,255,.55),1823px 710px 0 rgba(255,255,255,.55),1299px 42px 0 rgba(255,255,255,.55),1219px 405px 0 rgba(255,255,255,.55),927px 669px 0 rgba(255,255,255,.55),1513px 630px 0 rgba(255,255,255,.55),1331px 161px 0 rgba(255,255,255,.55),1276px 15px 0 rgba(255,255,255,.55),1703px 541px 0 rgba(255,255,255,.55),129px 60px 0 rgba(255,255,255,.55),73px 194px 0 rgba(255,255,255,.55),1801px 247px 0 rgba(255,255,255,.55),1228px 30px 0 rgba(255,255,255,.55),1593px 475px 0 rgba(255,255,255,.55),668px 451px 0 rgba(255,255,255,.55),1210px 200px 0 rgba(255,255,255,.55),1063px 239px 0 rgba(255,255,255,.55),1311px 301px 0 rgba(255,255,255,.55),1023px 4px 0 rgba(255,255,255,.55),1356px 87px 0 rgba(255,255,255,.55),936px 670px 0 rgba(255,255,255,.55),569px 416px 0 rgba(255,255,255,.55),1128px 860px 0 rgba(255,255,255,.55),170px 724px 0 rgba(255,255,255,.55),520px 322px 0 rgba(255,255,255,.55),1552px 235px 0 rgba(255,255,255,.55),1050px 295px 0 rgba(255,255,255,.55),60px 71px 0 rgba(255,255,255,.55),1153px 784px 0 rgba(255,255,255,.55),221px 410px 0 rgba(255,255,255,.55),220px 297px 0 rgba(255,255,255,.55),791px 68px 0 rgba(255,255,255,.55),34px 701px 0 rgba(255,255,255,.55),1px 218px 0 rgba(255,255,255,.55),429px 53px 0 rgba(255,255,255,.55),962px 384px 0 rgba(255,255,255,.55),1451px 406px 0 rgba(255,255,255,.55),859px 74px 0 rgba(255,255,255,.55),1159px 644px 0 rgba(255,255,255,.55),406px 797px 0 rgba(255,255,255,.55),1382px 276px 0 rgba(255,255,255,.55),689px 89px 0 rgba(255,255,255,.55),637px 340px 0 rgba(255,255,255,.55),31px 419px 0 rgba(255,255,255,.55),1552px 120px 0 rgba(255,255,255,.55),275px 252px 0 rgba(255,255,255,.55),1447px 103px 0 rgba(255,255,255,.55),22px 61px 0 rgba(255,255,255,.55),952px 816px 0 rgba(255,255,255,.55),997px 181px 0 rgba(255,255,255,.55),1396px 572px 0 rgba(255,255,255,.55),385px 458px 0 rgba(255,255,255,.55),1042px 195px 0 rgba(255,255,255,.55),1498px 787px 0 rgba(255,255,255,.55),268px 429px 0 rgba(255,255,255,.55),1318px 392px 0 rgba(255,255,255,.55),238px 404px 0 rgba(255,255,255,.55),861px 217px 0 rgba(255,255,255,.55),0px 276px 0 rgba(255,255,255,.55),1770px 822px 0 rgba(255,255,255,.55),1213px 311px 0 rgba(255,255,255,.55),1812px 20px 0 rgba(255,255,255,.55),431px 191px 0 rgba(255,255,255,.55),807px 616px 0 rgba(255,255,255,.55),1314px 590px 0 rgba(255,255,255,.55),205px 43px 0 rgba(255,255,255,.55),299px 218px 0 rgba(255,255,255,.55),904px 264px 0 rgba(255,255,255,.55),19px 791px 0 rgba(255,255,255,.55),1249px 336px 0 rgba(255,255,255,.55),1700px 303px 0 rgba(255,255,255,.55),790px 75px 0 rgba(255,255,255,.55),152px 92px 0 rgba(255,255,255,.55),427px 596px 0 rgba(255,255,255,.55),1303px 248px 0 rgba(255,255,255,.55),31px 615px 0 rgba(255,255,255,.55),755px 380px 0 rgba(255,255,255,.55),1274px 464px 0 rgba(255,255,255,.55),260px 601px 0 rgba(255,255,255,.55);animation:twinkle 4.2s ease-in-out infinite}
+.hero .sky i.s2{width:2px;height:2px;box-shadow:990px 852px 0 rgba(255,232,180,.85),1176px 138px 0 rgba(255,232,180,.85),1774px 395px 0 rgba(255,232,180,.85),374px 642px 0 rgba(255,232,180,.85),315px 318px 0 rgba(255,232,180,.85),1860px 233px 0 rgba(255,232,180,.85),1674px 625px 0 rgba(255,232,180,.85),510px 742px 0 rgba(255,232,180,.85),388px 162px 0 rgba(255,232,180,.85),1514px 644px 0 rgba(255,232,180,.85),1134px 201px 0 rgba(255,232,180,.85),1406px 397px 0 rgba(255,232,180,.85),1806px 494px 0 rgba(255,232,180,.85),1236px 80px 0 rgba(255,232,180,.85),863px 48px 0 rgba(255,232,180,.85),212px 111px 0 rgba(255,232,180,.85),79px 524px 0 rgba(255,232,180,.85),522px 244px 0 rgba(255,232,180,.85),1515px 721px 0 rgba(255,232,180,.85),802px 263px 0 rgba(255,232,180,.85),861px 843px 0 rgba(255,232,180,.85),1853px 610px 0 rgba(255,232,180,.85),1005px 300px 0 rgba(255,232,180,.85),1065px 179px 0 rgba(255,232,180,.85),1475px 70px 0 rgba(255,232,180,.85),258px 233px 0 rgba(255,232,180,.85),981px 572px 0 rgba(255,232,180,.85),1338px 630px 0 rgba(255,232,180,.85);animation:twinkle 6.4s ease-in-out infinite .8s}
+@keyframes twinkle{0%,100%{opacity:.25}50%{opacity:.95}}
+/* sao 4 cánh */
+.hero .spark{
+  position:absolute;z-index:1;width:var(--sz,22px);height:var(--sz,22px);
+  background:linear-gradient(180deg,#fff,rgba(255,214,140,.9));
+  clip-path:polygon(50% 0%,58% 42%,100% 50%,58% 58%,50% 100%,42% 58%,0% 50%,42% 42%);
+  opacity:.9;filter:drop-shadow(0 0 10px rgba(255,214,140,.75));
+  animation:sparkle 5s ease-in-out infinite;
+}
+@keyframes sparkle{0%,100%{transform:scale(.7) rotate(0deg);opacity:.45}50%{transform:scale(1.15) rotate(25deg);opacity:1}}
+/* lớp nền: nhãn dọc ở mép trái */
+.hero::after{
+  content:"PORTFOLIO · 2026";position:absolute;z-index:1;
+  left:18px;top:50%;transform:translateY(-50%) rotate(180deg);
+  writing-mode:vertical-rl;pointer-events:none;white-space:nowrap;
+  font-size:.68rem;font-weight:600;letter-spacing:.42em;
+  color:rgba(255,255,255,.3);
+}
+.hero .inner{max-width:var(--maxw);margin:0 auto;padding:0 28px;position:relative;z-index:2;width:100%}
+
+.kicker{
+  display:inline-flex;align-items:center;gap:10px;
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.26);
+  border-radius:999px;padding:7px 18px 7px 10px;font-size:.82rem;font-weight:500;
+  margin-bottom:28px;backdrop-filter:blur(6px);
+}
+.kicker .dot{width:8px;height:8px;border-radius:50%;background:var(--amber);flex:none;
+  box-shadow:0 0 0 0 rgba(255,176,32,.6);animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,176,32,.55)}70%{box-shadow:0 0 0 9px rgba(255,176,32,0)}100%{box-shadow:0 0 0 0 rgba(255,176,32,0)}}
+
+.hero h1{
+  margin:0;font-size:clamp(2.2rem,5.2vw,3.95rem);font-weight:800;
+  letter-spacing:-.038em;line-height:1.08;max-width:17ch;text-wrap:balance;
+}
+.hero h1 em{font-style:normal;color:var(--amber);position:relative;white-space:nowrap}
+.hero h1 em::after{
+  content:"";position:absolute;left:0;right:0;bottom:.06em;height:.11em;
+  background:rgba(255,176,32,.26);border-radius:3px;
+}
+.hero p.dek{
+  margin:24px 0 0;font-size:clamp(1rem,1.7vw,1.13rem);color:#CFC6F6;
+  max-width:46ch;font-weight:300;line-height:1.72;
+}
+.hero-meta{
+  margin-top:34px;padding-top:24px;border-top:1px solid rgba(255,255,255,.16);
+  display:flex;flex-wrap:wrap;gap:8px 28px;font-size:.88rem;color:#B5A9EE;
+}
+.hero-meta b{color:#fff;font-weight:500}
+
+/* ===== layout ===== */
+.shell{max-width:var(--maxw);margin:0 auto;padding:0 28px;display:flex;gap:56px;align-items:flex-start}
+aside{
+  width:var(--aside);flex:none;position:sticky;top:34px;
+  padding:34px 0 40px;max-height:calc(100vh - 60px);overflow-y:auto;
+}
+aside::-webkit-scrollbar{width:4px}
+aside::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+.toc-title{
+  font-size:.72rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:16px;
+}
+.toc{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
+.toc li{margin:0}
+.toc a{
+  display:block;padding:7px 0 7px 18px;margin-left:-2px;
+  border-left:2px solid transparent;
+  font-size:.9rem;color:var(--muted);text-decoration:none;
+  transition:color .2s,border-color .2s,padding-left .2s;
+}
+.toc a:hover{color:var(--navy);padding-left:22px}
+.toc a.on{color:var(--orange);border-left-color:var(--orange);font-weight:600}
+.toc .sub a{padding-left:32px;font-size:.855rem}
+.toc .sub a:hover{padding-left:36px}
+
+main{flex:1;min-width:0;padding:56px 0 40px;max-width:880px}
+
+/* ===== article ===== */
+section.blk{padding:34px 0 10px;scroll-margin-top:84px}
+h2{
+  margin:0 0 6px;font-size:clamp(1.55rem,3.2vw,2.15rem);font-weight:700;
+  letter-spacing:-.025em;line-height:1.2;color:var(--navy);
+}
+h2 .idx{
+  display:block;font-size:.72rem;font-weight:700;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--orange);margin-bottom:12px;
+}
+h3{margin:34px 0 4px;font-size:1.2rem;font-weight:600;color:var(--navy)}
+p{margin:16px 0}
+.lead{font-size:1.1rem;color:var(--ink);line-height:1.78}
+.muted{color:var(--muted)}
+
+/* marker highlight */
+.hl{
+  background-image:linear-gradient(transparent 56%,var(--marker) 56%);
+  background-repeat:no-repeat;background-size:0% 100%;
+  padding:0 2px;font-weight:500;
+  transition:background-size .9s cubic-bezier(.22,1,.36,1) .15s;
+}
+.reveal.in .hl{background-size:100% 100%}
+.hl.warm{background-image:linear-gradient(transparent 56%,var(--marker-2) 56%)}
+b.num{color:var(--orange);font-weight:700}
+
+/* context quote */
+.ctx{
+  margin:22px 0 24px;padding:16px 22px;border-left:4px solid var(--amber);
+  background:#FFF9EC;border-radius:0 10px 10px 0;
+  font-size:.99rem;color:#6B5420;font-style:italic;
+}
+
+/* lists */
+ul.feat{list-style:none;margin:18px 0 26px;padding:0}
+ul.feat li{position:relative;padding-left:28px;margin-bottom:13px}
+ul.feat li::before{
+  content:"";position:absolute;left:2px;top:.68em;width:9px;height:9px;
+  border-radius:2px;background:var(--blue-soft);transform:rotate(45deg);
+}
+
+/* result box */
+.res{
+  margin:24px 0 8px;padding:20px 24px;border-radius:12px;
+  background:linear-gradient(135deg,#FFF6E6,#FFF1DC);
+  border:1px solid #F7DCA8;
+}
+.res .tag{
+  display:inline-block;font-size:.69rem;font-weight:800;letter-spacing:.17em;
+  text-transform:uppercase;color:var(--orange);margin-bottom:8px;
+}
+.res p{margin:0;font-size:.99rem;color:#50401F}
+.res b{color:#8A4A05}
+.todo{color:#A08A62;font-style:italic;font-size:.93rem}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:26px 0}
+.stats.four{grid-template-columns:repeat(2,1fr)}
+.stats.three{grid-template-columns:repeat(3,1fr)}
+.stats.wide{grid-template-columns:1fr}
+.stat{
+  border:1px solid var(--line);border-radius:12px;padding:16px 20px;background:#fff;
+  display:flex;align-items:baseline;gap:14px;
+  transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s,border-color .35s;
+}
+.stat:hover{transform:translateY(-4px);box-shadow:0 10px 26px rgba(74,58,168,.1);border-color:var(--amber)}
+.stat .v{font-size:1.6rem;font-weight:800;color:var(--navy);letter-spacing:-.035em;line-height:1.15;flex:none}
+.stat .k{font-size:.82rem;color:var(--muted);line-height:1.45;flex:1}
+
+/* panel */
+.panel{
+  margin:26px 0;padding:24px 26px;border-radius:14px;
+  background:var(--sky-2);border:1px solid var(--line);
+}
+.panel h4{
+  margin:0 0 14px;font-size:.73rem;font-weight:700;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--blue);
+}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{
+  background:#fff;border:1px solid var(--line);color:var(--navy);
+  border-radius:7px;padding:5px 12px;font-size:.82rem;font-weight:500;
+  transition:border-color .25s,color .25s,transform .25s;
+}
+.chip:hover{border-color:var(--amber);color:var(--orange);transform:translateY(-2px)}
+
+/* ---------- khối trích dẫn ---------- */
+.quote-band{
+  background:var(--navy);color:#fff;border-radius:20px;overflow:hidden;
+  display:grid;grid-template-columns:1fr .78fr;align-items:center;
+  margin:52px 0 0;position:relative;
+}
+.quote-band .txt{padding:48px 46px}
+.quote-band blockquote{
+  margin:0;font-size:clamp(1.6rem,3.4vw,2.5rem);font-weight:700;
+  letter-spacing:-.03em;line-height:1.2;
+}
+.quote-band blockquote em{font-style:normal;color:var(--amber)}
+.quote-band p{margin:20px 0 0;color:#C2D4F1;font-size:1rem;max-width:44ch}
+.quote-band .ph{position:relative;align-self:stretch;min-height:300px}
+.quote-band .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.quote-band .ph::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,var(--navy) 0%,rgba(74,58,168,.55) 38%,transparent 72%);
+}
+
+/* ---------- ảnh chân dung ---------- */
+.hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:28px;align-items:end}
+.hero-copy{padding-bottom:76px}
+/* chan dung: co dinh chieu cao de luon vua man hinh, khong bi cat chan */
+.hero-photo{
+  position:relative;justify-self:end;align-self:end;display:flex;
+  width:auto;max-width:100%;line-height:0;padding-bottom:18px;
+}
+
+/* lớp giữa: quầng sáng ấm phía sau người, đã làm mờ cho mềm */
+.hero-photo .arch{
+  position:absolute;z-index:1;left:50%;transform:translateX(-50%);bottom:-2%;
+  width:84%;height:74%;border-radius:999px 999px 38% 38%;
+  background:linear-gradient(168deg,rgba(255,203,98,.92) 0%,rgba(255,154,46,.8) 44%,rgba(224,98,5,.52) 100%);
+  filter:blur(26px);opacity:.92;
+}
+/* quầng tím loang rộng, tạo chiều sâu */
+.hero-photo .halo{
+  position:absolute;z-index:0;left:50%;bottom:4%;transform:translateX(-50%);
+  width:124%;padding-bottom:124%;border-radius:50%;
+  background:radial-gradient(50% 50% at 50% 50%,rgba(160,143,238,.5),rgba(74,58,168,0) 68%);
+  filter:blur(14px);
+}
+/* bóng chân: để chân váy chạm nền */
+.hero-photo .ground{
+  position:absolute;z-index:1;left:-8%;right:-8%;bottom:4px;height:92px;border-radius:50%;
+  background:radial-gradient(50% 50% at 50% 50%,rgba(255,186,74,.55),rgba(255,176,32,0) 72%);
+  filter:blur(13px);
+}
+/* lớp giữa: vòng tròn viền lệch, nằm trên nền xanh cho thấy rõ */
+.hero-photo .ring{
+  position:absolute;z-index:1;left:-20%;bottom:36%;width:54%;padding-bottom:54%;
+  border:1.5px solid rgba(255,255,255,.28);border-radius:50%;
+}
+/* lớp giữa: chấm nhấn */
+.hero-photo .dot-a,.hero-photo .dot-b{position:absolute;z-index:1;border-radius:50%}
+.hero-photo .dot-a{right:4%;top:8%;width:11px;height:11px;background:var(--amber)}
+.hero-photo .dot-b{left:6%;top:26%;width:6px;height:6px;background:rgba(255,255,255,.55)}
+/* lớp giữa: vệt sáng chân */
+.hero-photo .base{
+  position:absolute;z-index:1;left:-26%;right:-26%;bottom:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.42),transparent);
+}
+/* lớp nổi: người */
+.hero-photo img{
+  position:relative;z-index:2;display:block;margin:0;
+  height:min(72vh,700px);width:auto;max-width:100%;
+  filter:drop-shadow(0 26px 40px rgba(20,10,60,.55));
+}
+/* lớp nổi: thẻ số liệu */
+.hero-card{
+  position:absolute;z-index:3;left:-58px;bottom:92px;
+  background:rgba(255,255,255,.97);color:var(--navy);
+  border-radius:14px;padding:14px 18px;min-width:186px;
+  box-shadow:0 20px 44px rgba(20,10,60,.4);
+}
+.hero-card .n{font-size:1.5rem;font-weight:800;letter-spacing:-.035em;line-height:1}
+.hero-card .t{font-size:.76rem;color:var(--muted);margin-top:5px;line-height:1.45}
+
+.scroll-cue{
+  position:absolute;z-index:3;left:28px;bottom:24px;
+  display:flex;align-items:center;gap:12px;
+  font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:#A79AE4;
+}
+.scroll-cue i{display:block;width:40px;height:1px;background:var(--amber);
+  animation:cue 2s ease-in-out infinite}
+@keyframes cue{0%,100%{transform:scaleX(.35);transform-origin:left}50%{transform:scaleX(1);transform-origin:left}}
+
+.portrait{position:relative;margin:0;isolation:isolate}
+.portrait img{width:100%;display:block;border-radius:18px;position:relative;z-index:1}
+.portrait::after{
+  content:"";position:absolute;right:-16px;bottom:-16px;width:62%;height:58%;
+  background:var(--marker);border-radius:18px;z-index:0;
+}
+.portrait.cool::after{background:var(--sky);right:auto;left:-16px}
+.portrait figcaption{position:relative;z-index:1;margin-top:14px}
+
+.wide-shot{margin:22px 0 0;position:relative}
+.wide-shot img{width:100%;display:block;border-radius:14px;border:1px solid var(--line);box-shadow:0 14px 34px rgba(74,58,168,.1)}
+.wide-shot figcaption{margin-top:12px;font-size:.9rem;color:var(--muted);line-height:1.6}
+.photo-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:30px 0 6px}
+.photo-strip img{
+  width:100%;height:220px;object-fit:cover;border-radius:12px;display:block;cursor:zoom-in;
+  filter:grayscale(.25);
+  transition:transform .45s cubic-bezier(.22,1,.36,1),filter .45s,box-shadow .45s;
+}
+.photo-strip img:hover{transform:translateY(-6px) scale(1.015);filter:none;box-shadow:0 16px 34px rgba(74,58,168,.2)}
+.strip-note{font-size:.84rem;color:var(--muted);margin-top:12px}
+
+.split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center;margin:30px 0}
+.split.narrow{grid-template-columns:1.35fr .65fr;gap:46px}
+
+.sign{margin-top:30px;position:relative;z-index:1}
+.sign img{width:160px;display:block;opacity:.95}
+.sign span{display:block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin-top:6px}
+
+/* figures & gallery */
+figure{margin:26px 0}
+figure img{
+  width:100%;display:block;border-radius:12px;border:1px solid var(--line);
+  box-shadow:0 4px 18px rgba(74,58,168,.07);cursor:zoom-in;
+  transition:transform .35s cubic-bezier(.22,1,.36,1),box-shadow .35s,border-color .35s;
+  background:#fff;
+}
+figure img:hover{transform:translateY(-4px);box-shadow:0 16px 38px rgba(74,58,168,.16);border-color:var(--amber)}
+figcaption{margin-top:10px;font-size:.84rem;color:var(--muted);line-height:1.55}
+figcaption b{color:var(--navy)}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin:26px 0}
+.gallery.three{grid-template-columns:repeat(3,1fr)}
+.gallery figure{margin:0}
+.slot{
+  border:2px dashed #C9D5EA;border-radius:12px;padding:34px 20px;text-align:center;
+  color:#93A2BD;font-size:.86rem;background:var(--sky-2);line-height:1.6;
+}
+.slot b{display:block;color:var(--navy);font-size:.92rem;margin-bottom:5px}
+.slot code{background:#fff;border:1px solid var(--line);border-radius:5px;padding:1px 7px;font-size:.82rem;color:var(--orange)}
+
+/* lightbox */
+.lightbox{
+  position:fixed;inset:0;background:rgba(8,20,45,.94);z-index:200;
+  display:none;align-items:center;justify-content:center;padding:28px;cursor:zoom-out;
+}
+.lightbox.on{display:flex;animation:lbfade .25s ease}
+.lightbox img{max-width:96vw;max-height:92vh;border-radius:10px;box-shadow:0 24px 80px rgba(0,0,0,.55)}
+.lightbox .x{
+  position:absolute;top:14px;right:22px;color:#fff;font-size:2.1rem;line-height:1;
+  opacity:.75;font-weight:300;
+}
+@keyframes lbfade{from{opacity:0;transform:scale(.985)}to{opacity:1;transform:none}}
+
+/* timeline */
+.tl{border-left:2px solid var(--line);padding-left:28px;margin:24px 0 8px}
+.tl-item{position:relative;padding-bottom:30px}
+.tl-item:last-child{padding-bottom:4px}
+.tl-item::before{
+  content:"";position:absolute;left:-35px;top:9px;width:12px;height:12px;border-radius:50%;
+  background:#fff;border:3px solid var(--blue);
+}
+.tl-item.hot::before{border-color:var(--orange);background:var(--amber)}
+.tl-when{font-size:.81rem;font-weight:700;color:var(--orange);letter-spacing:.04em}
+.tl-role{font-size:1.06rem;font-weight:600;margin:2px 0 3px;color:var(--navy)}
+.tl-desc{font-size:.93rem;color:var(--muted)}
+
+/* links */
+a.link{color:var(--orange);font-weight:600;text-decoration:none;border-bottom:1.5px solid #F7C98A}
+a.link:hover{border-bottom-color:var(--orange)}
+
+/* contact */
+.contact{
+  margin:46px 0 0;padding:38px 36px;border-radius:18px;
+  background:var(--navy);color:#fff;position:relative;overflow:hidden;
+}
+.contact::after{
+  content:"";position:absolute;right:-90px;bottom:-130px;width:300px;height:300px;
+  border-radius:50%;background:radial-gradient(circle,rgba(255,176,32,.22),transparent 70%);
+}
+.contact h2{color:#fff;position:relative;z-index:1}
+.contact h2 .idx{color:var(--amber)}
+.contact p{color:#C7D7F2;position:relative;z-index:1}
+.cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px;position:relative;z-index:1}
+.cgrid .k{font-size:.7rem;letter-spacing:.17em;text-transform:uppercase;color:var(--amber);margin-bottom:5px}
+.cgrid .v{font-size:1.02rem;font-weight:500}
+
+footer{
+  background:var(--navy-ink);color:#8FA5CC;font-size:.85rem;
+  padding:26px 0;text-align:center;margin-top:60px;
+}
+
+/* ===== reveal animation ===== */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1)}
+.reveal.in{opacity:1;transform:none}
+.reveal.d1{transition-delay:.08s}
+.reveal.d2{transition-delay:.16s}
+
+/* mobile toc */
+#toc-toggle{display:none}
+@media (max-width:1020px){
+  .shell{flex-direction:column;gap:0;padding:0 22px}
+  aside{
+    position:sticky;top:0;width:100%;max-height:none;z-index:40;
+    background:rgba(255,255,255,.96);backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);padding:0;
+  }
+  .toc-title{display:none}
+  #toc-toggle{
+    display:flex;align-items:center;justify-content:space-between;width:100%;
+    background:none;border:0;padding:15px 2px;font:inherit;font-weight:600;
+    color:var(--navy);cursor:pointer;font-size:.95rem;
+  }
+  #toc-toggle .arrow{color:var(--orange);transition:transform .3s}
+  aside.open #toc-toggle .arrow{transform:rotate(180deg)}
+  .toc{max-height:0;overflow:hidden;transition:max-height .35s ease;border-left:0;padding-bottom:0}
+  aside.open .toc{max-height:62vh;overflow-y:auto;padding-bottom:16px;border-left:2px solid var(--line)}
+  main{padding:30px 0 20px;max-width:none}
+  .hero{padding:72px 0 62px}
+}
+@media (max-width:900px){
+  .hero{min-height:0;padding:76px 0 0;align-items:stretch}
+  .hero::after{display:none}
+  .hero-copy{padding-bottom:40px}
+  .hero-photo{max-width:360px;margin:0 auto;padding-bottom:0}
+  .hero-photo img{height:auto;width:100%}
+  .hero-card{left:-14px;bottom:64px;min-width:160px;padding:11px 14px}
+  .hero-card .n{font-size:1.25rem}
+  .scroll-cue{display:none}
+  .quote-band{grid-template-columns:1fr}
+  .quote-band .txt{padding:32px 26px;order:2}
+  .quote-band .ph{min-height:230px;order:1}
+  .quote-band .ph::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(74,58,168,.35) 55%,transparent 100%)}
+  .hero-grid{grid-template-columns:1fr;gap:34px}
+  .hero-photo{justify-self:center;max-width:310px}
+  .hero-photo img{height:auto;width:100%}
+  .split,.split.narrow{grid-template-columns:1fr;gap:28px}
+  .photo-strip{grid-template-columns:repeat(2,1fr)}
+  .photo-strip img{height:200px}
+}
+@media (max-width:620px){
+  body{font-size:16px}
+  .shell{padding:0 16px}
+  .hero .inner{padding:0 16px}
+  .stats,.stats.four,.stats.three{grid-template-columns:1fr 1fr}
+  .gallery,.gallery.three{grid-template-columns:1fr}
+  .cgrid{grid-template-columns:1fr;gap:16px}
+  .contact{padding:28px 22px}
+  .res,.panel{padding:18px 18px}
+}
+@media (max-width:400px){
+  .stats,.stats.four,.stats.three{grid-template-columns:1fr}
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+  .hl{background-size:100% 100%}
+  html{scroll-behavior:auto}
+}
+
+@media print{
+  #progress,aside,#toc-toggle{display:none!important}
+  .shell{display:block;padding:0}
+  main{max-width:none;padding:0}
+  .reveal{opacity:1;transform:none}
+  .hl{background-size:100% 100%}
+  body{font-size:11.5px}
+  section.blk{break-inside:avoid;padding:16px 0 4px}
+  .hero,.contact{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+
+/* ===== CHE DO SUA TRUC TIEP ===== */
+#editbar{
+  position:fixed;right:18px;bottom:18px;z-index:120;display:flex;gap:8px;align-items:center;
+  background:rgba(26,17,80,.93);color:#fff;border-radius:999px;padding:8px 10px;
+  box-shadow:0 14px 40px rgba(20,10,60,.4);backdrop-filter:blur(8px);
+  font-family:"Be Vietnam Pro",system-ui,sans-serif;font-size:.84rem;
+}
+#editbar button{
+  border:0;border-radius:999px;padding:8px 14px;font:inherit;font-weight:600;cursor:pointer;
+  background:rgba(255,255,255,.14);color:#fff;transition:background .2s,transform .2s;
+}
+#editbar button:hover{background:rgba(255,255,255,.26);transform:translateY(-1px)}
+#editbar button.main{background:var(--amber);color:#2B1C00}
+#editbar button.main:hover{background:#FFC24D}
+#editbar .hint{display:none;padding-left:6px;color:#D9D2FF;font-size:.78rem;max-width:230px;line-height:1.4}
+body.editing #editbar .hint{display:block}
+body.editing [contenteditable="true"]:hover{outline:1px dashed rgba(106,86,214,.45);outline-offset:3px}
+body.editing [contenteditable="true"]:focus{outline:2px solid var(--amber);outline-offset:3px;border-radius:3px}
+body.editing .drag-handle{
+  position:absolute;left:-34px;top:12px;width:26px;height:26px;border-radius:8px;cursor:grab;
+  background:var(--sky);color:var(--navy);border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;font-size:13px;z-index:30;
+}
+body.editing section.blk{position:relative}
+body.editing section.blk.drag-over{box-shadow:0 -3px 0 0 var(--amber)}
+body.editing section.blk.dragging{opacity:.45}
+#edit-toast{
+  position:fixed;left:50%;bottom:86px;transform:translateX(-50%) translateY(14px);z-index:130;
+  background:var(--navy-ink);color:#fff;padding:10px 18px;border-radius:999px;font-size:.85rem;
+  opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;
+  font-family:"Be Vietnam Pro",system-ui,sans-serif;
+}
+#edit-toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+#edit-invite{
+  position:fixed;right:210px;bottom:26px;z-index:119;max-width:260px;
+  background:#fff;color:var(--navy-ink);border:1px solid var(--line);
+  border-radius:12px;padding:10px 14px;font-size:.82rem;line-height:1.5;
+  box-shadow:0 14px 34px rgba(20,10,60,.22);
+  font-family:"Be Vietnam Pro",system-ui,sans-serif;
+  animation:invite 7s ease forwards;
+}
+@keyframes invite{0%{opacity:0;transform:translateY(8px)}8%{opacity:1;transform:none}80%{opacity:1}100%{opacity:0;visibility:hidden}}
+body.editing #edit-invite{display:none}
+@media (max-width:860px){#edit-invite{display:none}}
+@media print{#editbar,#edit-toast,#edit-invite{display:none!important}}
+@media (max-width:640px){#editbar{right:10px;left:10px;bottom:10px;justify-content:center;flex-wrap:wrap}}
+</style>
+</head>
+<body>
+
+<div id="progress"></div>
+
+<header class="hero">
+  <span class="sky" aria-hidden="true"><i class="s1"></i><i class="s2"></i></span>
+  <span class="spark" style="--sz:26px;left:7%;top:18%"></span>
+  <span class="spark" style="--sz:16px;left:46%;top:11%;animation-delay:1.3s"></span>
+  <span class="spark" style="--sz:20px;right:6%;top:52%;animation-delay:2.1s"></span>
+  <span class="spark" style="--sz:13px;left:30%;bottom:16%;animation-delay:3.2s"></span>
+  <div class="inner">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="kicker"><span class="dot"></span>Portfolio của Tuyết Quỳnh</span>
+        <h1>Em làm marketing bằng cách <em>dựng hệ thống</em> chạy thay mình.</h1>
+        <p class="dek">
+          Gần 2 năm đi từ content marketing sang tự động hoá: tự viết code để bắt khách,
+          nuôi khách, đo lường và báo cáo.
+        </p>
+        <div class="hero-meta">
+          <span><b>Bùi Thị Tuyết Quỳnh</b></span>
+          <span>Digital Marketing · Tự động hoá</span>
+          <span><b>0964.480.549</b></span>
+          <span>tuyetquynhb2711@gmail.com</span>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <span class="halo" aria-hidden="true"></span>
+        <span class="ring" aria-hidden="true"></span>
+        <span class="dot-a" aria-hidden="true"></span>
+        <span class="dot-b" aria-hidden="true"></span>
+        <span class="arch" aria-hidden="true"></span>
+        <span class="base" aria-hidden="true"></span>
+        <span class="ground" aria-hidden="true"></span>
+        <img src="anh_port_quynh/me-cutout.png" alt="Bùi Thị Tuyết Quỳnh">
+        <div class="hero-card">
+          <div class="n">8 hệ thống</div>
+          <div class="t">tự xây và vận hành<br>cho khoảng 50 người dùng</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue"><i></i> Cuộn xuống để xem</div>
+</header>
+
+<div class="shell">
+
+  <aside id="aside">
+    <button id="toc-toggle" aria-expanded="false">Mục lục <span class="arrow">▾</span></button>
+    <div class="toc-title">Mục lục</div>
+    <ul class="toc" id="toc">
+      <li><a href="#ve-em">01 · Về em</a></li>
+      <li><a href="#dinh-huong">02 · Định hướng</a></li>
+      <li><a href="#nguyen-tac">03 · Nguyên tắc làm việc</a></li>
+      <li><a href="#hoc-van">04 · Học vấn</a></li>
+      <li><a href="#qua-trinh">05 · Quá trình làm việc</a></li>
+      <li><a href="#chuyen-mon">06 · 4 mảng chuyên môn</a></li>
+      <li><a href="#du-an">07 · Dự án tại Meetup Travel</a></li>
+      <li class="sub"><a href="#da1">Bắt khách &amp; trả lời 24/7</a></li>
+      <li class="sub"><a href="#da2">Email tự động</a></li>
+      <li class="sub"><a href="#da3">Dữ liệu &amp; báo cáo</a></li>
+      <li class="sub"><a href="#da4">Chatbot AI</a></li>
+      <li class="sub"><a href="#da5">Dự án CRM</a></li>
+      <li class="sub"><a href="#da6">Website &amp; SEO tự động</a></li>
+      <li class="sub"><a href="#da7">Web tuyển dụng &amp; Emagazine</a></li>
+      <li class="sub"><a href="#da8">Hỗ trợ quảng cáo</a></li>
+      <li><a href="#content">08 · Nền content marketing</a></li>
+      <li><a href="#ky-nang">09 · Kỹ năng</a></li>
+      <li><a href="#chung-chi">10 · Chứng chỉ &amp; đánh giá</a></li>
+      <li><a href="#lien-he">11 · Liên hệ</a></li>
+    </ul>
+  </aside>
+
+  <main>
+
+    
+    <!-- ===== VỀ EM ===== -->
+    <section class="blk reveal" id="ve-em">
+      <h2><span class="idx">01 — Về em</span>Từ người viết nội dung<br>thành người dựng hệ thống.</h2>
+      <p class="lead">
+        Em bắt đầu từ content marketing. Làm được một thời gian thì em nhận ra thứ cản trở công việc
+        nhiều nhất không phải là thiếu ý tưởng, mà là <span class="hl">dữ liệu nằm rải rác mỗi nơi một ít</span>
+        và những việc lặp đi lặp lại mỗi ngày ngốn hết thời gian lẽ ra dành cho việc nghĩ.
+      </p>
+      <p>
+        Thế là em học code. Gần hai năm tại một công ty lữ hành đón khách quốc tế, em tự xây và vận hành
+        hệ thống tự động hoá marketing dùng chung cho <span class="hl">khoảng 50 nhân sự ở hai văn phòng</span>:
+        hệ thống bắt khách tiềm năng, chatbot AI, email tự động, bảng theo dõi số liệu cho Sale và Marketing,
+        cho tới luồng tự viết bài cho website.
+      </p>
+      <div class="split narrow">
+        <div>
+          <p style="margin-top:0">
+            Cách làm của em là coi AI như một cộng sự thật sự: nhờ nó viết code, viết kịch bản, dựng
+            những chương trình nhỏ chạy ngay trên máy. Nhờ vậy một người vẫn giữ được khối lượng hệ
+            thống mà bình thường cần cả một đội.
+          </p>
+          <p>
+            Em biết mình còn nhiều thứ phải học, nên làm xong việc gì em cũng ghi lại thành tài liệu,
+            để lần sau làm nhanh hơn và để người khác dùng được.
+          </p>
+        </div>
+        <figure class="portrait">
+          <img src="anh_port_quynh/me-chandung.jpg" alt="Chân dung Tuyết Quỳnh" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== ĐỊNH HƯỚNG ===== -->
+    <section class="blk reveal" id="dinh-huong">
+      <h2><span class="idx">02 — Định hướng</span>Chặng tiếp theo em muốn đi.</h2>
+      <p class="lead">
+        Em làm marketing theo cách của một người dựng hệ thống: tìm chỗ đang tắc, rồi làm ra thứ chạy
+        thay mình. 2 năm qua em đi từ content sang tự động hoá, và vẫn đang học mỗi ngày.
+      </p>
+      <p>
+        Chặng tiếp theo em mong được đi sâu hơn về <span class="hl">tự động hoá bằng code</span> và
+        <span class="hl warm">cách vận dụng AI trong marketing</span>, đồng thời giữ nền content marketing
+        và tư duy quản trị kinh doanh làm điểm neo. Em tin một hệ thống chỉ có giá trị khi nó phục vụ
+        đúng bài toán kinh doanh, nên em không muốn dừng ở việc viết được code chạy.
+      </p>
+      <p>
+        Em cũng biết mình còn thiếu, đặc biệt là chiều sâu kỹ thuật và kinh nghiệm làm trong một đội có
+        quy trình bài bản. Đó chính là lý do em tìm môi trường mới: để được học từ người giỏi hơn, làm ở
+        quy mô lớn hơn, và va vào những bài toán mà một mình em chưa tự nghĩ ra được.
+      </p>
+    </section>
+
+    <!-- ===== NGUYÊN TẮC ===== -->
+    <section class="blk reveal" id="nguyen-tac">
+      <h2><span class="idx">03 — Nguyên tắc làm việc</span>3 nguyên tắc luôn giữ.</h2>
+      <div class="stats wide">
+        <div class="stat"><div class="v">01</div><div class="k"><b>Làm xong thì viết lại.</b> Mọi thứ em dựng đều có tài liệu đi kèm, để người sau tiếp nhận được mà không phải hỏi lại em.</div></div>
+        <div class="stat"><div class="v">02</div><div class="k"><b>Số nói trước, cảm nhận nói sau.</b> Dừng hay giữ một luồng email, tăng hay giảm ngân sách, em đều muốn nhìn số rồi mới quyết.</div></div>
+        <div class="stat"><div class="v">03</div><div class="k"><b>Việc lặp lại ba lần thì nên tự động.</b> Thời gian tiết kiệm được để dành cho phần cần người nghĩ.</div></div>
+      </div>
+    </section>
+
+    <!-- ===== HỌC VẤN ===== -->
+    <section class="blk reveal" id="hoc-van">
+      <h2><span class="idx">04 — Học vấn</span>Học vấn.</h2>
+      <div class="split">
+        <figure class="portrait cool">
+          <img src="anh_port_quynh/me-tot-nghiep.jpg" alt="Ngày tốt nghiệp" loading="lazy">
+          <figcaption>Ngày nhận bằng, tháng 7 năm 2025.</figcaption>
+        </figure>
+        <div>
+          <div class="stats wide" style="margin-top:0">
+            <div class="stat">
+              <div class="v">3,54</div>
+              <div class="k"><b>Đại học Văn hoá Hà Nội</b><br>Quản trị dịch vụ du lịch và lữ hành<br>2021 – 07/2025 · Đã tốt nghiệp</div>
+            </div>
+          </div>
+          <p class="muted" style="font-size:.95rem">
+            Học ngành du lịch nên em hiểu sản phẩm mình đang làm marketing: một chuyến đi được bán
+            thế nào, khách lo gì trước khi xuống tiền, và vì sao một lịch trình lại có giá đó.
+            Phần code và hệ thống là thứ em tự học thêm sau này.
+          </p>
+          <div class="stats wide">
+            <div class="stat">
+              <div class="v">SEO</div>
+              <div class="k"><b>Khoá SEO Blueprint</b><br>10 buổi: research keyword, audit content,
+              cấu trúc website, onpage, internal link, technical và entity<br>Do leader cũ giới thiệu</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery">
+        <figure>
+          <img src="anh_port_quynh/me-le-tot-nghiep.jpg" alt="Lễ bế giảng và trao bằng tốt nghiệp 2025" loading="lazy">
+          <figcaption>Lễ bế giảng và trao bằng tốt nghiệp, Đại học Văn hoá Hà Nội, 2025.</figcaption>
+        </figure>
+        <figure>
+          <img src="anh_port_quynh/me-daihoc.jpg" alt="Sân trường Đại học Văn hoá Hà Nội" loading="lazy">
+          <figcaption>Sân trường, nơi em học 4 năm ngành Lữ hành.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== QUÁ TRÌNH ===== -->
+    <section class="blk reveal" id="qua-trinh">
+      <h2><span class="idx">05 — Quá trình làm việc</span>Nơi em đã đi qua.</h2>
+      <div class="photo-strip">
+        <img src="anh_port_quynh/me-team-meetup.jpg" alt="Team Meetup Travel" loading="lazy">
+        <img src="anh_port_quynh/me-van-phong.jpg" alt="Góc làm việc tại văn phòng" loading="lazy">
+        <img src="anh_port_quynh/me-team-puluong.jpg" alt="Chuyến đi Pù Luông cùng team Marketing" loading="lazy">
+        <img src="anh_port_quynh/me-doan-khach-dau-tien.jpg" alt="Đoàn khách đầu tiên em dẫn" loading="lazy">
+      </div>
+      <p class="strip-note">
+        Từ trái qua: team Meetup Travel, góc làm việc hằng ngày của em, chuyến đi Pù Luông cùng team
+        Marketing, và đoàn khách quốc tế đầu tiên em dẫn năm 2024.
+      </p>
+      <div class="tl">
+        <div class="tl-item hot">
+          <div class="tl-when">03/2025 – 11/2026 · Full time</div>
+          <div class="tl-role">Meetup Travel — Digital Marketing Executive (Tự động hoá &amp; Hệ thống)</div>
+          <div class="tl-desc">Lữ hành đón khách quốc tế, khoảng 50 nhân sự, hai văn phòng. Phụ trách tự động hoá, chatbot AI, email marketing, bảng theo dõi số liệu, website và SEO. Chủ trì dự án CRM nội bộ phía marketing.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-when">12/2025 – 02/2026 · Freelance</div>
+          <div class="tl-role">Familia House — Content &amp; TikTok</div>
+          <div class="tl-desc">Nghiên cứu kênh, xây định hướng nội dung, viết kịch bản và brief dựng khoảng 100 video.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-when">09/2022 – 12/2024 · Part time</div>
+          <div class="tl-role">Công ty TNHH SX TM Nhựa Đại Việt — Content Marketing</div>
+          <div class="tl-desc">Quản lý nội dung 2 fanpage và 3 website, hơn 300 kịch bản video, bài PR và bài sự kiện.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-when">08/2024 – 10/2024 · Part time</div>
+          <div class="tl-role">Công ty Cổ phần Connect 360 — Content Writer</div>
+          <div class="tl-desc">Nội dung fanpage, video TikTok và Reels.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-when">07/2023 – 12/2023 · Part time</div>
+          <div class="tl-role">Công ty Visa &amp; Du học Welkin — Content Marketing</div>
+          <div class="tl-desc">Nội dung 2 fanpage, thiết kế ảnh và đăng bài website.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BỐN MẢNG ===== -->
+    <section class="blk reveal" id="chuyen-mon">
+      <h2><span class="idx">06 — Chuyên môn</span>4 mảng chuyên môn.</h2>
+      <div class="stats">
+        <div class="stat"><div class="v">01</div><div class="k"><b>Tự động hoá marketing</b><br>Bắt khách tiềm năng, trả lời khách, email nuôi dưỡng, đăng bài và trả lời bình luận</div></div>
+        <div class="stat"><div class="v">02</div><div class="k"><b>Dữ liệu &amp; báo cáo</b><br>Đưa dữ liệu từ CRM về một chỗ, dựng bảng theo dõi cho Sale và Marketing</div></div>
+        <div class="stat"><div class="v">03</div><div class="k"><b>Chatbot AI</b><br>Viết kịch bản hội thoại và dữ liệu sản phẩm cho bot nhiều thị trường</div></div>
+        <div class="stat"><div class="v">04</div><div class="k"><b>Content &amp; SEO</b><br>Kế hoạch từ khoá, viết bài chuẩn SEO, luồng tự viết bài cho website</div></div>
+      </div>
+    </section>
+
+    <!-- ===== DỰ ÁN ===== -->
+    <section class="blk reveal" id="du-an">
+      <h2><span class="idx">07 — Dự án · 03/2025 – 11/2026</span>Những thứ em đã dựng<br>tại Meetup Travel.</h2>
+      <p class="lead">
+        Meetup Travel là công ty lữ hành đón khách quốc tế, khoảng 50 nhân sự, hai văn phòng Hà Nội và
+        TP.HCM, phục vụ khách từ châu Âu, Mỹ, Úc và Trung Đông. Em làm vị trí Digital Marketing Executive,
+        phụ trách mảng tự động hoá và dữ liệu marketing.
+      </p>
+      <p class="muted">
+        Phần dưới đây em chỉ nêu bối cảnh, thứ đã làm ra và kết quả. Chi tiết kỹ thuật của từng
+        hệ thống em tách riêng sang
+        <a class="link" href="CAM-NANG-LAM-VIEC-QUYNH.md">Cẩm nang làm việc →</a>
+      </p>
+    </section>
+
+    <!-- P1 -->
+    <section class="blk reveal" id="da1">
+      <h2><span class="idx">Dự án 01</span>Bắt khách tiềm năng và trả lời tự động 24/7.</h2>
+      <div class="ctx">Khách quốc tế nằm ở nhiều múi giờ. Một email gửi lúc 2h sáng mà tới trưa hôm sau mới có người đọc thì gần như đã mất khách.</div>
+      <ul class="feat">
+        <li>Khách tiềm năng chất lượng cao được báo thẳng về Zalo đội sale <span class="hl">trong vòng 1 phút</span>, kèm sẵn mức ưu tiên theo nguồn và theo dấu hiệu khách thực sự quan tâm</li>
+        <li>Báo cáo khách hằng ngày và hằng tuần tự về Discord và Zalo, chia sẵn theo thị trường, nguồn, hạng khách sạn và thời điểm khởi hành, sale và quản lý không phải ngồi tổng hợp tay</li>
+        <li><b class="num">2 trợ lý email</b> trực thư khách 24/7: hiểu khách đang cần gì, phát hiện khách chưa được giao cho sale nào để báo gấp, trả lời được cả khách viết tiếng Pháp và tiếng Ả Rập</li>
+        <li>Sale tra được toàn bộ mạch thư của một khách qua đường link bảo mật, không cần vào hộp thư chung</li>
+        <li>Nhắn tin tự động qua WhatsApp, phủ <b class="num">95%</b> đội sale</li>
+      </ul>
+      <p class="muted" style="font-size:.9rem;font-style:italic">Ảnh minh chứng hệ thống nội bộ không đăng công khai. Em gửi trực tiếp khi phỏng vấn.</p>
+      <div class="res">
+        <span class="tag">Kết quả</span>
+        <p>Khách được phản hồi trong <b>1–15 phút</b>, kể cả ngoài giờ và cuối tuần.
+        Thay thế hoàn toàn <b>ManyChat</b> trong luồng trả lời bình luận và tin nhắn đầu tiên.</p>
+      </div>
+    </section>
+
+    <!-- P2 -->
+    <section class="blk reveal" id="da2">
+      <h2><span class="idx">Dự án 02</span>Hệ thống email marketing tự động.</h2>
+      <div class="ctx">Một tệp email lớn tích luỹ qua nhiều năm, do sale nhập tay nên sai rất nhiều. Tệp khách trả lời "chưa sẵn sàng book" gần như bị bỏ ngỏ.</div>
+      <ul class="feat">
+        <li><b class="num">9 luồng email</b> đang chạy: chuỗi kể chuyện khách thật, bộ 7 lịch trình mẫu cho khách chưa chốt, thư gợi ý theo thời tiết đúng tháng khách đi, thư khảo sát sau khi giao sale, thư nhắc sau khi gửi lịch trình</li>
+        <li>Khoảng <b class="num">80 mẫu thư</b>, trong đó một luồng có hơn 26 phiên bản tuỳ nhu cầu, kiểu đi và điểm đến của khách</li>
+        <li>Danh sách gửi được làm sạch mỗi ngày nên tên miền công ty giữ được uy tín: <span class="hl">96,21% thư vào hộp thư chính, 0,01% bị báo spam</span> trên một tệp vốn nhập tay và sai rất nhiều</li>
+        <li>Sale Leader có trang theo dõi hiệu quả và thư viện mẫu thư; chính số liệu đó dẫn tới quyết định dừng <b class="num">3 luồng</b> kém hiệu quả và giãn nhịp gửi để bớt người huỷ đăng ký</li>
+      </ul>
+
+      <h3>Số liệu thực tế</h3>
+      <p class="muted" style="font-size:.9rem;margin-top:4px">Giai đoạn 05/05 – 09/11/2026</p>
+      <div class="stats">
+        <div class="stat"><div class="v">33.978</div><div class="k">email đã gửi</div></div>
+        <div class="stat"><div class="v">96,21%</div><div class="k">vào được hộp thư người nhận</div></div>
+        <div class="stat"><div class="v">31,06%</div><div class="k">tỷ lệ mở thư (đo chắc chắn 23,91%)</div></div>
+        <div class="stat"><div class="v">0,01%</div><div class="k">tỷ lệ bị khách báo spam</div></div>
+      </div>
+      <p>
+        Con số em thấy đáng nói nhất không phải tỷ lệ mở, mà là
+        <span class="hl">96,21% thư vào được hộp thư và chỉ 0,01% bị báo spam</span>
+        trên một tệp email vốn nhập tay và sai rất nhiều. Đó là phần khó nhất của dự án này.
+      </p>
+
+      <h3>Khách có phản hồi thật và bot xử lý được</h3>
+      <p>
+        Khi khách bấm trả lời, thư được tiếp nhận và trả lời ngay, đồng thời được phân loại sẵn
+        theo tình huống: đã trả lời xong,
+        cần nhắc lần 1, cần nhắc lần 2, cần báo gấp sang Zalo, hay trường hợp cần người thật
+        tiếp nhận.
+      </p>
+      <p class="muted" style="font-size:.9rem;font-style:italic">Ảnh minh chứng hệ thống nội bộ không đăng công khai. Em gửi trực tiếp khi phỏng vấn.</p>
+      <div class="res">
+        <span class="tag">Kết quả</span>
+        <p>Đưa chi phí công cụ gửi mail về <b>gói miễn phí</b> mà vẫn giữ nguyên các luồng đang chạy.
+        Tệp khách "chưa sẵn sàng book" được nuôi tự động mà sale không phải bỏ thêm giờ.
+        <b>87 cuộc hội thoại</b> khách trả lời đã được bot tiếp nhận và phân loại.</p>
+      </div>
+    </section>
+
+    <!-- P3 -->
+    <section class="blk reveal" id="da3">
+      <h2><span class="idx">Dự án 03</span>Dữ liệu và bảng theo dõi cho Sale &amp; Marketing.</h2>
+      <div class="ctx">Dữ liệu nằm rải rác ở CRM, Google Sheet, trang đích và website. Mỗi bộ phận nhìn một con số khác nhau nên họp hành mất thời gian cãi nhau về số liệu trước khi bàn được việc.</div>
+      <ul class="feat">
+        <li><b class="num">2 bảng theo dõi số liệu</b> cho Sale và Marketing, tự cập nhật mỗi sáng: tỷ lệ chuyển đổi, lọc theo quốc gia, nguồn khách, doanh số tháng và dự báo</li>
+        <li>Bảng cho Sale đi qua <b class="num">5 phiên bản</b> theo góp ý của Sale Leader cho tới khi dùng được hằng ngày</li>
+        <li>Tài liệu <span class="hl">Từ điển chỉ số</span> để Sale, Marketing và cấp quản lý hiểu giống nhau về từng con số, họp không còn mất thời gian cãi nhau về số liệu</li>
+        <li>Quảng cáo Meta nhận được tín hiệu khách chất lượng ngay khi khách đạt tiêu chí, thay vì đợi tới lúc chốt đơn</li>
+      </ul>
+      <p class="muted" style="font-size:.9rem;font-style:italic">Ảnh minh chứng hệ thống nội bộ không đăng công khai. Em gửi trực tiếp khi phỏng vấn.</p>
+      <div class="res">
+        <span class="tag">Kết quả</span>
+        <p>Thay thế <b>Looker</b>. Toàn bộ hệ thống dữ liệu vận hành với <b>500.000đ/tháng</b> tiền máy chủ.
+        Quảng cáo nhận được tín hiệu khách chất lượng thay vì khách thô.</p>
+      </div>
+    </section>
+
+    <!-- P4 -->
+    <section class="blk reveal" id="da4">
+      <h2><span class="idx">Dự án 04</span>Hệ thống chatbot AI nhiều thị trường.</h2>
+      <div class="ctx">Mỗi thị trường có thói quen hỏi và rào cản khác nhau. Sale phải trực tin nhắn thủ công, khách hỏi ngoài giờ thì phải đợi.</div>
+      <ul class="feat">
+        <li>Hệ thống bot trực 24/7 theo từng thị trường và điểm đến: GCC, Ấn Độ, Philippines, Malaysia, Pháp, Sapa, Đà Nẵng, Phú Quốc, du thuyền, lịch trình và visa</li>
+        <li><b class="num">10 bot cho 10 kênh</b> được chuyển sang nền tảng mới đúng tiến độ, luồng tư vấn của sale không bị đứt ngày nào</li>
+        <li>Khách sắp khởi hành trong vòng một tháng được hệ thống đẩy lên ưu tiên xử lý trước</li>
+        <li><span class="hl">Toàn bộ dữ liệu bot về CRM</span>: lịch sử chat, tin nhắn sale, cảnh báo khách về Zalo</li>
+        <li>Bộ hướng dẫn chuẩn và quy trình làm chatbot đã bàn giao cho người kế nhiệm, hệ thống chạy tiếp không phụ thuộc vào một người</li>
+      </ul>
+      <p class="muted" style="font-size:.9rem;font-style:italic">Ảnh minh chứng hệ thống nội bộ không đăng công khai. Em gửi trực tiếp khi phỏng vấn.</p>
+      <div class="res">
+        <span class="tag">Kết quả</span>
+        <p>Bot xử lý <b>90%</b> tình huống thường gặp, fanpage tự chạy không còn phụ thuộc người trực.
+        Quy trình đánh giá chất lượng khách đi kèm giúp chi phí mỗi tin nhắn quảng cáo giảm rõ rệt
+        so với trước khi có quy trình.</p>
+      </div>
+    </section>
+
+    <!-- P5 -->
+    <section class="blk reveal" id="da5">
+      <h2><span class="idx">Dự án 05</span>Chủ trì dự án CRM nội bộ.</h2>
+      <div class="ctx">Giá, booking và thanh toán phân mảnh trên nhiều Google Sheet. Mỗi người tính một kiểu nên số liệu lệch nhau và không ai kiểm soát được.</div>
+      <ul class="feat">
+        <li>Toàn bộ luồng <span class="hl">Sale → Sale Leader duyệt → Chăm sóc khách xử lý booking → Kế toán thanh toán nhà cung cấp</span> được chốt và đưa vào dùng thật</li>
+        <li>Kho giá tập trung cho tour, dịch vụ xe và sân bay, visa, khách sạn và du thuyền, mỗi hạng dịch vụ một quy tắc tính giá riêng</li>
+        <li>Cổng duyệt giá: duyệt xong là khoá sửa. Lịch thanh toán bắt buộc đối chiếu tài khoản nhà cung cấp và đính kèm chứng từ mới được đánh dấu đã trả</li>
+        <li>Qua <b class="num">5 đợt kiểm thử</b> cùng Sale, Chăm sóc khách, Kế toán và đội kỹ thuật trước khi nghiệm thu</li>
+        <li>Đội sale đã được đào tạo và dùng công cụ tạo lịch trình mới trong vận hành hằng ngày</li>
+      </ul>
+      <p class="muted" style="font-size:.9rem;font-style:italic">Ảnh minh chứng hệ thống nội bộ không đăng công khai. Em gửi trực tiếp khi phỏng vấn.</p>
+      <div class="res">
+        <span class="tag">Kết quả</span>
+        <p>Đưa dữ liệu giá về <b>một nguồn duy nhất</b> cho khoảng 50 người ở hai văn phòng.
+        Chặn được những lỗi đã từng xảy ra trong thực tế: cùng một đoàn nhưng hai file cho ra hai con số
+        khác nhau, hoặc dịch vụ bị đưa sang vận hành khi chưa có giá nhập hợp lệ.</p>
+      </div>
+    </section>
+
+    <!-- P6 -->
+    <section class="blk reveal" id="da6">
+      <h2><span class="idx">Dự án 06</span>Website và luồng tự viết bài SEO.</h2>
+      <div class="ctx">Website thiếu nội dung theo kế hoạch từ khoá và tồn nhiều lỗi kỹ thuật, trong khi không có ngân sách thuê thêm người viết.</div>
+      <ul class="feat">
+        <li>Kế hoạch từ khoá <b class="num">49 nhóm chủ đề</b>, nhóm các bài liên quan lại với nhau để Google hiểu website mạnh về mảng nào</li>
+        <li><b class="num">19 bài</b> viết tay và <b class="num">8 gói tour</b> trong giai đoạn đầu</li>
+        <li>Thêm <b class="num">49 bài</b> do luồng tự viết mỗi sáng, website phủ kín kế hoạch từ khoá mà không phải thuê thêm người viết</li>
+        <li>Website sạch các lỗi kỹ thuật cơ bản: link gãy, sơ đồ trang, cấu trúc bài</li>
+        <li><b class="num">10 kênh</b> Instagram, Facebook và TikTok tự đăng bài và trả lời bình luận, kèm trả lời bình luận tại 10 nhóm trong khung 10h–22h</li>
+      </ul>
+
+      <h3>Kết quả trên Google Search Console</h3>
+      <p class="muted" style="font-size:.9rem;margin-top:4px">Giai đoạn 01/07 – 07/11/2026</p>
+      <div class="stats">
+        <div class="stat"><div class="v">3.491</div><div class="k">lượt nhấp từ Google</div></div>
+        <div class="stat"><div class="v">67.041</div><div class="k">lượt hiển thị trên Google</div></div>
+        <div class="stat"><div class="v">104</div><div class="k">bài blog đã được Google đưa vào kết quả tìm kiếm</div></div>
+        <div class="stat"><div class="v">5,21%</div><div class="k">tỷ lệ nhấp trung bình</div></div>
+      </div>
+      <div class="stats wide">
+        <div class="stat"><div class="v">671 → 1.012</div><div class="k">lượt nhấp mỗi tháng, từ tháng 7 đến tháng 10/2026, tăng 51%</div></div>
+        <div class="stat"><div class="v">10.595 → 23.610</div><div class="k">lượt hiển thị mỗi tháng, cùng giai đoạn, tăng 123%</div></div>
+      </div>
+      <p>
+        <span class="hl">Phần lớn lượt nhấp hiện vẫn đến từ những người
+        đã biết tên thương hiệu</span> rồi tìm trên Google. Nhóm bài blog mới đang ở giai đoạn tích luỹ
+        hiển thị: 104 bài đã vào được kết quả tìm kiếm và đóng góp 42.284 lượt hiển thị, nhưng tỷ lệ
+        nhấp còn thấp.
+      </p>
+      <figure>
+        <img src="anh_port_quynh/meetup-serp-thuonghieu.jpg" alt="Kết quả tìm kiếm cho tên thương hiệu" loading="lazy">
+        <figcaption>Khi khách tìm đúng tên công ty, website chiếm gần trọn trang nhất Google kèm khung thông tin doanh nghiệp <b>4,9 sao</b>. Đây là phần việc của kỹ thuật website và trang chủ.</figcaption>
+      </figure>
+      <p>
+        Dù vậy đã có những từ khoá không mang tên thương hiệu lọt lên đầu, ví dụ
+        <i>local vietnam travel agency</i> ở vị trí 1,3 và <i>best neighborhoods in ho chi minh city</i>
+        ở vị trí 1. Việc tiếp theo em muốn làm là viết lại tiêu đề và mô tả cho nhóm bài đã có nhiều
+        hiển thị, vì đó là chỗ dễ ra thêm lượt nhấp nhất mà không cần viết thêm bài mới.
+      </p>
+
+      <h3>Kết quả trên Google Analytics</h3>
+      <p class="muted" style="font-size:.9rem;margin-top:4px">Giai đoạn 01/07 – 09/11/2026</p>
+      <div class="stats three">
+        <div class="stat"><div class="v">20.057</div><div class="k">người truy cập</div></div>
+        <div class="stat"><div class="v">173.430</div><div class="k">lượt tương tác trên trang</div></div>
+        <div class="stat"><div class="v">57 giây</div><div class="k">thời gian ở lại trung bình</div></div>
+      </div>
+      <p class="muted">
+        Nguồn khách vào website nhiều nhất lần lượt là Instagram, vào thẳng website, quảng cáo Meta và
+        tìm kiếm Google. Khách tập trung ở Singapore, Hà Nội, Kuala Lumpur và Sydney.
+      </p>
+
+      <h3>Phần kỹ thuật của website</h3>
+      <p class="muted" style="font-size:.9rem;font-style:italic">Ảnh minh chứng hệ thống nội bộ không đăng công khai. Em gửi trực tiếp khi phỏng vấn.</p>
+    </section>
+
+    <!-- P7: WEB TUYEN DUNG -->
+    <section class="blk reveal" id="da7">
+      <h2><span class="idx">Dự án 07</span>Website tuyển dụng<br>và tuyến bài Emagazine.</h2>
+      <div class="ctx">Công ty cần tuyển liên tục, nhưng tin tuyển dụng viết kiểu văn bản hành chính thì không ai đọc hết. Ứng viên giỏi muốn biết vào đây rồi sẽ lớn lên thế nào, chứ không chỉ muốn biết lương bao nhiêu.</div>
+      <ul class="feat">
+        <li>Xây website tuyển dụng riêng <b class="num">9 trang</b>: trang chủ, danh sách vị trí, 5 trang mô tả công việc và trang phúc lợi. Mỗi vị trí có một cái tên kể được câu chuyện, ví dụ Sales Leader Trainee đặt tên <i>Cá chép hoá rồng</i>, Tour Consultant tiếng Pháp đặt tên <i>Con đường thứ năm</i></li>
+        <li>Viết tuyến bài <span class="hl">Emagazine kể chuyện người thật đang làm trong công ty</span>, song ngữ Việt và Anh, mỗi bài có số liệu thật trong công việc của nhân vật thay vì lời khen chung chung</li>
+        <li>Viết tài liệu <span class="hl warm">Quy chuẩn viết nội dung Meetup</span>, chốt giọng văn và cách xưng hô cho mọi sản phẩm nội dung của công ty, dùng được cho cả người viết lẫn khi ra yêu cầu cho AI</li>
+        <li>Viết bộ hướng dẫn chuẩn và đào tạo bàn giao toàn bộ quy trình làm Emagazine cho team HR</li>
+        <li>Xử lý các tác vụ vận hành trên website: đóng vị trí đã tuyển đủ, bổ sung thông tin liên hệ HR</li>
+      </ul>
+
+      <div class="gallery">
+        <figure>
+          <a href="https://tuyendung.meetup.travel/" target="_blank" rel="noopener">
+            <img src="anh_port_quynh/hr-trangchu.jpg" alt="Trang chủ website tuyển dụng" loading="lazy"></a>
+          <figcaption><b>Trang chủ</b> — "Meetup là một công ty kén người". <a class="link" href="https://tuyendung.meetup.travel/" target="_blank" rel="noopener">Mở website →</a></figcaption>
+        </figure>
+        <figure>
+          <img src="anh_port_quynh/hr-vitri.jpg" alt="Trang danh sách vị trí đang tuyển" loading="lazy">
+          <figcaption><b>Trang vị trí đang tuyển</b> — 13 vị trí, lấy đánh giá 4,9 sao từ khách quốc tế làm điểm tin cậy.</figcaption>
+        </figure>
+        <figure>
+          <img src="anh_port_quynh/hr-slt.jpg" alt="Trang Sales Leader Trainee" loading="lazy">
+          <figcaption><b>Sales Leader Trainee · Cá chép hoá rồng</b> — trang mô tả công việc viết như một câu chuyện nghề.</figcaption>
+        </figure>
+        <figure>
+          <img src="anh_port_quynh/hr-phap.jpg" alt="Trang Tour Consultant tiếng Pháp" loading="lazy">
+          <figcaption><b>Tour Consultant tiếng Pháp · Con đường thứ năm</b> — trang riêng cho ứng viên biết tiếng Pháp.</figcaption>
+        </figure>
+      </div>
+
+      <h3>Tuyến bài Emagazine</h3>
+      <p>
+        Mỗi bài là chân dung một người đang làm ở công ty: viết song ngữ, có ảnh chụp riêng và những
+        con số thật trong công việc của họ. Em phụ trách phần thiết kế và biên tập, phối hợp với team
+        HR để lấy nội dung.
+      </p>
+      <div class="gallery">
+        <figure>
+          <img src="anh_port_quynh/hr-emagazine.jpg" alt="Bài Emagazine số 1" loading="lazy">
+          <figcaption><b>Meetup Magazine #01</b> — "Leaving Tour Guiding for Tour Consulting, was it worth it?". Bài song ngữ, đổi ngôn ngữ ngay trên trang.</figcaption>
+        </figure>
+        <figure>
+          <img src="anh_port_quynh/hr-phucloi.jpg" alt="Trang phúc lợi" loading="lazy">
+          <figcaption><b>Trang phúc lợi</b> — viết lại theo quy chuẩn nội dung, bỏ hẳn lối liệt kê hành chính.</figcaption>
+        </figure>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><div class="v">6 bài</div><div class="k">Emagazine đang chạy trên website</div></div>
+        <div class="stat"><div class="v">439</div><div class="k">lượt xem, 209 người đọc</div></div>
+        <div class="stat"><div class="v">10–26%</div><div class="k">tỷ lệ thoát của hai bài tốt nhất, nghĩa là người đọc đi tiếp chứ không bỏ ngang</div></div>
+        <div class="stat"><div class="v">316</div><div class="k">lượt nhấp từ Google vào trang tuyển dụng</div></div>
+      </div>
+
+      <div class="res">
+        <span class="tag">Kết quả</span>
+        <p>Trang tuyển dụng đạt tỷ lệ nhấp <b>26%</b> trên Google, cao gấp khoảng năm lần mức trung bình
+        của cả website, ở vị trí trung bình <b>4,6</b>. Team HR tự vận hành được quy trình làm Emagazine
+        sau khi nhận bàn giao. Tài liệu quy chuẩn nội dung trở thành tài liệu dùng chung cho các sản phẩm
+        viết của công ty.</p>
+      </div>
+    </section>
+
+    <!-- P8 -->
+    <section class="blk reveal" id="da8">
+      <h2><span class="idx">Dự án 08</span>Hỗ trợ chạy quảng cáo.</h2>
+      <ul class="feat">
+        <li>Chạy và tối ưu chiến dịch tuyển dụng cho team HR, gồm cả định hướng hình ảnh và quy trình đánh dấu ứng viên</li>
+        <li>Hỗ trợ chiến dịch tìm khách cho các gói tour tại thị trường Philippines, Ấn Độ và Trung Đông</li>
+        <li>Xây quy trình đánh giá chất lượng khách để quảng cáo học đúng tệp, thay vì chạy theo số lượng khách thô</li>
+        <li>Lập bảng quản lý chi tiêu và báo cáo hiệu quả quảng cáo cho team Marketing</li>
+      </ul>
+      <div class="stats three">
+        <div class="stat"><div class="v">98</div><div class="k">hồ sơ ứng viên sale trong tháng cao điểm</div></div>
+        <div class="stat"><div class="v">37</div><div class="k">hồ sơ qua vòng sơ loại</div></div>
+        <div class="stat"><div class="v">11</div><div class="k">ứng viên qua phỏng vấn</div></div>
+      </div>
+      <div class="res">
+        <span class="tag">Ghi nhận thêm</span>
+        <p>Quy trình đánh giá chất lượng khách do em xây đã thành tài liệu chuẩn để các bạn sale áp dụng,
+        giúp đội quảng cáo nhìn được tỷ trọng khách ở phân khúc cao và quyết định tăng giảm ngân sách
+        theo từng thị trường. <span class="todo">(Số liệu chi tiết thuộc dữ liệu nội bộ nên em xin phép
+        trao đổi trực tiếp khi phỏng vấn.)</span></p>
+      </div>
+    </section>
+
+    <!-- ===== CONTENT ===== -->
+    <section class="blk reveal" id="content">
+      <h2><span class="idx">08 — Nền tảng</span>Trước khi làm hệ thống,<br>em làm nội dung.</h2>
+
+      <h3>Nội dung social cho Meetup · 2025</h3>
+      <p>
+        Giai đoạn đầu ở Meetup em còn trực tiếp làm nội dung cho kênh Instagram, trước khi chuyển hẳn
+        sang mảng hệ thống.
+        <a class="link" href="https://www.instagram.com/meetuptravel_premium/reels/" target="_blank" rel="noopener">Xem kênh Instagram →</a>
+      </p>
+      <div class="gallery">
+        <figure>
+          <a href="https://www.instagram.com/meetuptravel_premium/reels/" target="_blank" rel="noopener">
+            <img src="anh_port_quynh/old-09-ig-video-48k.jpg" alt="Video Instagram đạt 48.100 lượt xem" loading="lazy"></a>
+          <figcaption>Video Instagram đạt <b>48.100 lượt xem</b>, kéo được bình luận và tin nhắn tự nhiên về kênh. <a class="link" href="https://www.instagram.com/meetuptravel_premium/reels/" target="_blank" rel="noopener">Xem kênh →</a></figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.instagram.com/meetuptravel_premium/reels/" target="_blank" rel="noopener">
+            <img src="anh_port_quynh/old-10-ig-followers-2k.jpg" alt="Kênh tăng hơn 2.000 người theo dõi" loading="lazy"></a>
+          <figcaption>Kênh tăng <b>hơn 2.000 người theo dõi</b> trong giai đoạn em phụ trách nội dung.</figcaption>
+        </figure>
+      </div>
+
+      <h3>Familia House · Freelance Content &amp; TikTok · 12/2025 – 02/2026</h3>
+      <div class="ctx">Chuỗi homestay cao cấp ở Hà Nội, định vị "ngôi nhà thứ hai" cho nhóm gia đình và nhóm bạn đông người, view Hồ Tây và Phố Cổ.</div>
+      <ul class="feat">
+        <li>Nghiên cứu kênh và phân tích các kênh homestay nổi bật để tìm công thức nội dung phù hợp</li>
+        <li>Xây định hướng nội dung theo tỷ lệ <span class="hl">40% giải quyết vấn đề, 30% góc nhìn người trong cuộc, 20% giải trí, 10% kiến thức</span>, nhắm hai nhóm khách: gia đình nhiều thế hệ và nhóm bạn Gen Z</li>
+        <li>Lên ý tưởng, viết kịch bản và brief dựng <b class="num">khoảng 100 video</b>, nhịp 4–5 video mỗi tuần, kèm kế hoạch nội dung cho Facebook và Threads</li>
+      </ul>
+      <div class="res">
+        <span class="tag">Kết quả</span>
+        <p>Video nổi bật đạt <b>25.100</b> và <b>18.900</b> lượt xem.
+        <a class="link" href="https://www.tiktok.com/@familiahouse.vn" target="_blank" rel="noopener">Xem kênh TikTok →</a></p>
+      </div>
+
+      <h3>Content Marketing tại ba doanh nghiệp · 2022 – 2024</h3>
+      <ul class="feat">
+        <li><b>Công ty TNHH SX TM Nhựa Đại Việt</b> (09/2022 – 12/2024, part time) — phụ trách nội dung 2 fanpage và 3 website. Phần em làm: hơn <b class="num">300 kịch bản video</b> ngắn, bài PR và bài sự kiện cho báo chí. Số của cả kênh trong hơn 2 năm đó: fanpage <span class="hl">2,7 triệu lượt tiếp cận</span>, 115.100 lượt xem, 22.300 lượt tương tác; website <span class="hl">1,27 triệu lượt hiển thị</span>, 48.200 lượt nhấp. Đây là số của cả kênh: giai đoạn đó có ngân sách quảng cáo chạy song song và là kết quả của cả team, không phải một mình em đẩy lên</li>
+        <li><b>Công ty Cổ phần Connect 360</b> (08/2024 – 10/2024, part time) — duy trì nội dung fanpage, sản xuất video TikTok và Reels theo kế hoạch tháng</li>
+        <li><b>Công ty Visa &amp; Du học Welkin</b> (07/2023 – 12/2023, part time) — quản lý nội dung 2 fanpage, đạt 7.100 lượt tiếp cận và 2.600 lượt truy cập; thiết kế ảnh và đăng bài website</li>
+      </ul>
+      <div class="gallery">
+        <figure>
+          <a href="https://docs.google.com/document/d/1jUcopf8mr7IXAWUOLf2qdvmvrFv4OGI_gCLrqex-IEo/edit" target="_blank" rel="noopener">
+            <img src="anh_port_quynh/old-08-social-fanpage.jpg" alt="Nội dung fanpage và group" loading="lazy"></a>
+          <figcaption><b>Nội dung fanpage và group.</b> <a class="link" href="https://docs.google.com/document/d/1jUcopf8mr7IXAWUOLf2qdvmvrFv4OGI_gCLrqex-IEo/edit" target="_blank" rel="noopener">Xem danh sách bài chi tiết →</a></figcaption>
+        </figure>
+        <figure>
+          <a href="https://docs.google.com/document/d/1J8pwmCVj0lHLJErxXc8aX_4I9vmygFPI7MtyvfqluuQ/edit" target="_blank" rel="noopener">
+            <img src="anh_port_quynh/old-11-seo-pr-article.jpg" alt="Bài SEO website và bài PR sự kiện" loading="lazy"></a>
+          <figcaption><b>Bài SEO website và bài PR sự kiện.</b> <a class="link" href="https://docs.google.com/document/d/1J8pwmCVj0lHLJErxXc8aX_4I9vmygFPI7MtyvfqluuQ/edit" target="_blank" rel="noopener">Xem danh sách bài chi tiết →</a></figcaption>
+        </figure>
+        <figure>
+          <img src="anh_port_quynh/old-12-seo-serp-ranking.jpg" alt="Thứ hạng từ khoá trên Google" loading="lazy">
+          <figcaption><b>Thứ hạng thực tế trên Google</b> của các bài em viết, chụp từ kết quả tìm kiếm.</figcaption>
+        </figure>
+        <figure>
+          <img src="anh_port_quynh/old-13-design.jpg" alt="Thiết kế ảnh" loading="lazy">
+          <figcaption><b>Thiết kế ảnh</b> cho bài đăng và ấn phẩm truyền thông.</figcaption>
+        </figure>
+      </div>
+
+      <h3>Sản xuất video ngắn · hơn 300 kịch bản</h3>
+      <p>
+        Mảng video là nơi em học được cách nghĩ theo câu mở đầu và theo nhịp giữ chân người xem, thứ sau
+        này em mang sang cả việc viết kịch bản cho bot và viết bài SEO. Em làm trọn quy trình: nghiên cứu,
+        viết kịch bản, dựng video và lồng tiếng.
+        <a class="link" href="https://www.facebook.com/tamopcasary/reels/" target="_blank" rel="noopener">Xem toàn bộ video trên Facebook →</a>
+      </p>
+      <div class="gallery three">
+        <figure>
+          <img src="anh_port_quynh/old-18-video-process.jpg" alt="Quy trình làm video" loading="lazy">
+          <figcaption>Quy trình em phụ trách: nghiên cứu, viết kịch bản, dựng và lồng tiếng.</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.facebook.com/tamopcasary/reels/" target="_blank" rel="noopener">
+            <img src="anh_port_quynh/old-19-video-casary-1.jpg" alt="Video thương hiệu Casary" loading="lazy"></a>
+          <figcaption>Video trong chiến dịch thương hiệu Casary. <a class="link" href="https://www.facebook.com/tamopcasary/reels/" target="_blank" rel="noopener">Xem thêm →</a></figcaption>
+        </figure>
+        <figure>
+          <img src="anh_port_quynh/old-21-video-300-scripts.jpg" alt="Tuyển tập video" loading="lazy">
+          <figcaption>Tuyển tập chọn lọc từ chiến dịch <b>hơn 300 kịch bản</b>.</figcaption>
+        </figure>
+      </div>
+
+      <h3>Những việc ngoài bàn phím</h3>
+      <p>
+        Trước khi ngồi viết nội dung cho một thương hiệu du lịch, em đã trực tiếp đi dẫn khách, chạy sự
+        kiện và đứng thuyết trình. Những việc đó dạy em cách nói sao cho người nghe hiểu ngay, thứ sau
+        này đi thẳng vào cách em viết bài và viết kịch bản cho bot.
+      </p>
+      <div class="gallery three">
+        <figure>
+          <img src="anh_port_quynh/me-lam-guide.jpg" alt="Dẫn khách quốc tế" loading="lazy">
+          <figcaption><b>Dẫn khách quốc tế</b> — hiểu khách lo gì và thích gì bằng cách đi cùng họ.</figcaption>
+        </figure>
+        <figure>
+          <img src="anh_port_quynh/me-chay-su-kien.jpg" alt="Chạy sự kiện" loading="lazy">
+          <figcaption><b>Chạy sự kiện</b> — lên checklist và trực tiếp vận hành tại chỗ.</figcaption>
+        </figure>
+        <figure>
+          <img src="anh_port_quynh/me-thuyet-trinh-truong.jpg" alt="Thuyết trình tại trường" loading="lazy">
+          <figcaption><b>Thuyết trình</b> — cuộc thi thiết kế logo tại trường.</figcaption>
+        </figure>
+      </div>
+      <figure>
+        <img src="anh_port_quynh/me-thuyet-trinh-doitac.jpg" alt="Thuyết trình sản phẩm cho đối tác" loading="lazy">
+        <figcaption><b>Trình bày sản phẩm của công ty cho đối tác</b> trong thời gian làm tại Nhựa Đại Việt.</figcaption>
+      </figure>
+
+      <h3>Dự án cá nhân</h3>
+      <ul class="feat">
+        <li><b>Tự động hoá nội dung cho Threads và TikTok</b> — em tự xây chương trình chạy trên máy cá nhân để nghiên cứu từ khoá, soạn nội dung theo nhóm chủ đề và lên lịch đăng, dùng để thử nghiệm mô hình tiếp thị liên kết và nội dung ngách</li>
+        <li><b>Hệ thống sắp xếp 88 tài liệu vận hành</b> — chương trình tự quét máy tính và sinh ra một tài liệu tổng hợp, để việc bàn giao cho người sau đỡ vất vả</li>
+      </ul>
+    </section>
+
+    <!-- ===== KỸ NĂNG ===== -->
+    <section class="blk reveal" id="ky-nang">
+      <h2><span class="idx">09 — Kỹ năng</span>Kỹ năng và mức độ sử dụng.</h2>
+
+      <div class="panel">
+        <h4>Thành thạo, dùng hằng ngày</h4>
+        <div class="chips">
+          <span class="chip">Google Apps Script</span><span class="chip">Google Sheets nâng cao</span>
+          <span class="chip">Viết kịch bản cho AI</span><span class="chip">Vận hành AI agent trên máy</span>
+          <span class="chip">Meta Business Suite</span><span class="chip">Viết nội dung &amp; kịch bản video</span>
+          <span class="chip">Canva</span><span class="chip">CapCut</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h4>Đã dùng ở mức đủ để hoàn thành việc</h4>
+        <div class="chips">
+          <span class="chip">SEO — nghiên cứu từ khoá và viết bài, đang học thêm</span>
+          <span class="chip">Đọc số liệu Google Analytics 4 &amp; Search Console</span>
+          <span class="chip">Đọc dữ liệu từ cơ sở dữ liệu CRM</span>
+          <span class="chip">Dựng dashboard số liệu trên web</span>
+          <span class="chip">Git — lưu lịch sử thay đổi của code</span>
+          <span class="chip">Gửi tín hiệu chuyển đổi về Meta</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ===== CHỨNG CHỈ ===== -->
+    <section class="blk reveal" id="chung-chi">
+      <h2><span class="idx">10 — Chứng chỉ &amp; đánh giá</span>Chứng chỉ và nhận xét.</h2>
+      <div class="gallery">
+        <figure>
+          <img src="anh_port_quynh/old-29-certificates.jpg" alt="Chứng chỉ Content Marketing và tiếng Anh" loading="lazy">
+          <figcaption>Chứng chỉ <b>Content Marketing</b> và chứng chỉ giao tiếp tiếng Anh.</figcaption>
+        </figure>
+        <figure>
+          <img src="anh_port_quynh/khoa-hoc-seo-blueprint.jpg" alt="Nội dung khoá học SEO Blueprint 10 buổi" loading="lazy">
+          <figcaption>Khoá <b>SEO Blueprint</b> 10 buổi, do leader cũ giới thiệu: research keyword, audit content, cấu trúc website, onpage, internal link, technical và entity.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== TRÍCH DẪN ===== -->
+    <section class="blk reveal" style="padding-top:10px">
+      <div class="quote-band">
+        <div class="txt">
+          <blockquote>Chưa biết thì học.<br><em>Cứ làm đi</em> rồi sẽ biết.</blockquote>
+          <p>
+            2 năm trước em chưa viết nổi một dòng code. Cái gì em làm được trong portfolio này
+            cũng đều bắt đầu từ việc không biết, rồi ngồi mò cho tới khi nó chạy.
+          </p>
+        </div>
+        <div class="ph"><img src="anh_port_quynh/me-sukien-2.jpg" alt="Tuyết Quỳnh tại sự kiện khách hàng" loading="lazy"></div>
+      </div>
+    </section>
+
+    <!-- ===== LIÊN HỆ ===== -->
+    <section class="blk reveal" id="lien-he">
+      <div class="contact">
+        <h2><span class="idx">11 — Liên hệ</span>Cảm ơn anh chị<br>đã đọc tới đây.</h2>
+        <p>Nếu công ty mình đang cần một bạn làm marketing hiểu cả nội dung lẫn hệ thống đứng sau nó,
+        em rất mong được trao đổi thêm.</p>
+        <div class="cgrid">
+          <div><div class="k">Điện thoại</div><div class="v">0964.480.549</div></div>
+          <div><div class="k">Email</div><div class="v">tuyetquynhb2711@gmail.com</div></div>
+          <div><div class="k">Địa chỉ</div><div class="v">Đống Đa, Hà Nội</div></div>
+        </div>
+        <div class="sign">
+          <img src="anh_port_quynh/chu-ki.png" alt="Chữ ký">
+          <span>Bùi Thị Tuyết Quỳnh</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <div style="font-size:1.25rem;font-weight:700;color:#fff;margin-bottom:8px;letter-spacing:-.02em">Cảm ơn anh chị đã dành thời gian.</div>
+  Bùi Thị Tuyết Quỳnh · Portfolio cập nhật tháng 11/2026
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-label="Xem ảnh phóng to">
+  <span class="x" aria-hidden="true">&times;</span>
+  <img src="" alt="">
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var bar = document.getElementById('progress');
+  function onScroll(){
+    var h = document.documentElement;
+    var max = h.scrollHeight - h.clientHeight;
+    bar.style.width = (max > 0 ? (h.scrollTop||document.body.scrollTop)/max*100 : 0).toFixed(2) + '%';
+  }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  var blocks = document.querySelectorAll('.reveal');
+  if (reduce || !('IntersectionObserver' in window)) {
+    blocks.forEach(function(b){ b.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, {rootMargin:'0px 0px -12% 0px', threshold:0.08});
+    blocks.forEach(function(b){ io.observe(b); });
+  }
+
+  var links = Array.prototype.slice.call(document.querySelectorAll('#toc a'));
+  var targets = links.map(function(a){ return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+  function spy(){
+    var pos = window.scrollY + 140, cur = null;
+    targets.forEach(function(t){ if (t.offsetTop <= pos) cur = t; });
+    links.forEach(function(a){ a.classList.toggle('on', cur && a.getAttribute('href') === '#'+cur.id); });
+  }
+  window.addEventListener('scroll', spy, {passive:true});
+  window.addEventListener('resize', spy); spy();
+
+  /* lightbox: chi mo cho anh KHONG nam trong the <a> */
+  var lb = document.getElementById('lightbox'), lbImg = lb.querySelector('img');
+  function closeLb(){ lb.classList.remove('on'); document.body.style.overflow=''; }
+  document.querySelectorAll('figure img, .photo-strip img').forEach(function(img){
+    if (img.closest('a')) { img.style.cursor='pointer'; return; }
+    img.addEventListener('click', function(){
+      lbImg.src = img.currentSrc || img.src; lbImg.alt = img.alt || '';
+      lb.classList.add('on'); document.body.style.overflow='hidden';
+    });
+  });
+  lb.addEventListener('click', closeLb);
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && lb.classList.contains('on')) closeLb(); });
+
+  var aside = document.getElementById('aside'), btn = document.getElementById('toc-toggle');
+  btn.addEventListener('click', function(){
+    var open = aside.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true':'false');
+  });
+  document.querySelectorAll('#toc a').forEach(function(a){
+    a.addEventListener('click', function(){ aside.classList.remove('open'); btn.setAttribute('aria-expanded','false'); });
+  });
+})();
+</script>
+
+<div id="edit-invite" hidden>Trang này bạn tự sửa được: bấm <b>Sửa trực tiếp</b> ở góc phải &rarr;</div>
+<div id="editbar" hidden>
+  <button id="ed-toggle" class="main" type="button">Sửa trực tiếp</button>
+  <button id="ed-save" type="button" hidden>Lưu</button>
+  <button id="ed-export" type="button" hidden>Tải HTML</button>
+  <button id="ed-reset" type="button" hidden>Về bản gốc</button>
+  <span class="hint">Bấm vào chữ để sửa. Kéo nút ⠿ bên trái mỗi phần để đổi thứ tự.</span>
+</div>
+<div id="edit-toast"></div>
+
+<script>
+/* ===== Sua truc tiep: sua chu + keo tha doi thu tu + luu + xuat file ===== */
+(function(){
+  var KEY = 'portfolio-tuyetquynh-edit-v1';
+  /* ban public: chi hien cong cu sua khi mo bang ?edit=1 */
+  if (location.search.indexOf('edit=1') !== -1) {
+    var eb = document.getElementById('editbar'); if (eb) eb.hidden = false;
+    var ei = document.getElementById('edit-invite'); if (ei) ei.hidden = false;
+  }
+  var bToggle = document.getElementById('ed-toggle');
+  var bSave = document.getElementById('ed-save');
+  var bExport = document.getElementById('ed-export');
+  var bReset = document.getElementById('ed-reset');
+  var toastEl = document.getElementById('edit-toast');
+  var main = document.querySelector('main');
+  var heroCopy = document.querySelector('.hero-copy');
+  var editing = false, dragged = null;
+
+  function toast(msg){
+    toastEl.textContent = msg; toastEl.classList.add('on');
+    clearTimeout(toast._t); toast._t = setTimeout(function(){ toastEl.classList.remove('on'); }, 2400);
+  }
+  function store(op, val){
+    try {
+      if (op === 'get') return localStorage.getItem(KEY);
+      if (op === 'set') { localStorage.setItem(KEY, val); return 'ok'; }
+      localStorage.removeItem(KEY); return 'ok';
+    } catch(e){ return null; }
+  }
+
+  try {
+    var saved = store('get');
+    if (saved) {
+      var data = JSON.parse(saved);
+      if (data.main) main.innerHTML = data.main;
+      if (data.hero) heroCopy.innerHTML = data.hero;
+      bReset.hidden = false;
+      setTimeout(function(){ toast('Đang xem bản bạn đã sửa lúc ' + (data.at || '')); }, 700);
+    }
+  } catch(e){}
+
+  function addHandles(){
+    main.querySelectorAll('section.blk').forEach(function(sec){
+      if (sec.querySelector('.drag-handle')) return;
+      var h = document.createElement('span');
+      h.className = 'drag-handle';
+      h.textContent = '\u283F';
+      h.title = 'Kéo để đổi thứ tự';
+      h.setAttribute('contenteditable','false');
+      h.addEventListener('mousedown', function(){ sec.setAttribute('draggable','true'); });
+      h.addEventListener('mouseup', function(){ sec.removeAttribute('draggable'); });
+      sec.insertBefore(h, sec.firstChild);
+    });
+  }
+  function removeHandles(root){
+    var r = root || main;
+    r.querySelectorAll('.drag-handle').forEach(function(h){ h.remove(); });
+    r.querySelectorAll('section.blk').forEach(function(sec){
+      sec.removeAttribute('draggable'); sec.classList.remove('drag-over','dragging');
+    });
+  }
+  function closestSection(node){
+    while (node && node !== main) {
+      if (node.classList && node.classList.contains('blk')) return node;
+      node = node.parentNode;
+    }
+    return null;
+  }
+
+  main.addEventListener('dragstart', function(e){
+    var sec = closestSection(e.target);
+    if (!editing || !sec) return;
+    dragged = sec; sec.classList.add('dragging');
+    e.dataTransfer.effectAllowed = 'move';
+    try { e.dataTransfer.setData('text/plain','move'); } catch(err){}
+  });
+  main.addEventListener('dragover', function(e){
+    if (!editing || !dragged) return;
+    var sec = closestSection(e.target);
+    if (!sec || sec === dragged) return;
+    e.preventDefault();
+    main.querySelectorAll('.drag-over').forEach(function(x){ x.classList.remove('drag-over'); });
+    sec.classList.add('drag-over');
+  });
+  main.addEventListener('drop', function(e){
+    if (!editing || !dragged) return;
+    var sec = closestSection(e.target);
+    if (!sec || sec === dragged) return;
+    e.preventDefault();
+    var secs = Array.prototype.slice.call(main.querySelectorAll('section.blk'));
+    var before = secs.indexOf(dragged) > secs.indexOf(sec);
+    sec.parentNode.insertBefore(dragged, before ? sec : sec.nextSibling);
+    sec.classList.remove('drag-over');
+    toast('Đã đổi thứ tự. Nhớ bấm Lưu.');
+  });
+  main.addEventListener('dragend', function(){
+    if (dragged) dragged.classList.remove('dragging');
+    main.querySelectorAll('.drag-over').forEach(function(x){ x.classList.remove('drag-over'); });
+    dragged = null;
+  });
+
+  function setEditing(on){
+    editing = on;
+    document.body.classList.toggle('editing', on);
+    [main, heroCopy].forEach(function(el){ el.setAttribute('contenteditable', on ? 'true' : 'false'); });
+    bToggle.textContent = on ? 'Xong' : 'Sửa trực tiếp';
+    [bSave, bExport].forEach(function(b){ b.hidden = !on; });
+    if (on) { addHandles(); toast('Bấm vào chữ để sửa. Kéo nút bên trái để đổi thứ tự.'); }
+    else { removeHandles(); }
+  }
+  bToggle.addEventListener('click', function(){ setEditing(!editing); });
+
+  bSave.addEventListener('click', function(){
+    var clone = main.cloneNode(true);
+    removeHandles(clone);
+    clone.removeAttribute('contenteditable');
+    var heroClone = heroCopy.cloneNode(true);
+    heroClone.removeAttribute('contenteditable');
+    var ok = store('set', JSON.stringify({
+      main: clone.innerHTML,
+      hero: heroClone.innerHTML,
+      at: new Date().toLocaleString('vi-VN')
+    }));
+    bReset.hidden = false;
+    toast(ok === null ? 'Trình duyệt chặn lưu tại chỗ. Hãy bấm Tải HTML.' : 'Đã lưu vào trình duyệt này.');
+  });
+
+  bExport.addEventListener('click', function(){
+    var doc = document.documentElement.cloneNode(true);
+    removeHandles(doc);
+    doc.querySelectorAll('[contenteditable]').forEach(function(el){ el.removeAttribute('contenteditable'); });
+    var eb = doc.querySelector('#editbar'); if (eb) eb.remove();
+    var et = doc.querySelector('#edit-toast'); if (et) et.remove();
+    var html = '<!doctype html>\n' + doc.outerHTML;
+    var url = URL.createObjectURL(new Blob([html], {type:'text/html;charset=utf-8'}));
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'portfolio-tuyetquynh-' + new Date().toISOString().slice(0,10) + '.html';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function(){ URL.revokeObjectURL(url); }, 4000);
+    toast('Đã tải file HTML về máy.');
+  });
+
+  bReset.addEventListener('click', function(){
+    store('del');
+    toast('Đã xoá bản sửa. Đang tải lại bản gốc...');
+    setTimeout(function(){ location.reload(); }, 900);
+  });
+})();
+</script>
+</body>
+</html>
